@@ -7,6 +7,16 @@ package me.prince.java8;
  */
 
 public class Invoice {
+	public Invoice() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Invoice(Long id, String title, Double amount) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.amount = amount;
+	}
 	private Long id;
 	private String title;
 	private Double amount;
