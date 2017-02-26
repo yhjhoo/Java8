@@ -1,1 +1,6 @@
 /target/
+.idea/
+/.settings/
+/java8.iml
+/.classpath
+/.project
